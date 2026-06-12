@@ -1,4 +1,9 @@
+import { Metadata } from "next";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
 import { lusitana } from "@/app/ui/fonts";
 import { Suspense } from "react";
